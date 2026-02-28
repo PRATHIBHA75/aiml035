@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aadhaar Demo Replica</title>
+
+<style>
+body{
+    background:#f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    display:flex;
+    gap:20px;
+}
+
+.page{
+    width:430px;
+    background:#fff;
+    border:1px solid #000;
+    padding:8px;
+    box-sizing:border-box;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.tricolor{
+    height:14px;
+    background:linear-gradient(to right,#ff9933,#fff,#138808);
+    margin:6px 0;
+}
+
+.uidai{
+    background:#138808;
+    color:#fff;
+    text-align:center;
+    font-size:12px;
+    font-weight:bold;
+    padding:3px 0;
+}
+
+.section{
+    font-size:12px;
+    margin-top:8px;
+}
+
+.addr{
+    line-height:1.4;
+}
+
+.qr{
+    width:120px;
+    height:120px;
+    border:1px solid #000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:11px;
+    margin-top:10px;
+}
+
+.aadhaar-no{
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+    letter-spacing:2px;
+    margin-top:10px;
+}
+
+.card{
+    border-top:1px dashed #000;
+    margin-top:10px;
+    padding-top:8px;
+    display:flex;
+    gap:10px;
+}
+
+.photo{
+    width:90px;
+    height:110px;
+    border:1px solid #000;
+    background:#ddd;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:11px;
+}
+
+.details{
+    font-size:12px;
+}
+
+.footer{
+    text-align:center;
+    font-size:11px;
+    margin-top:6px;
+}
+
+.info ul{
+    padding-left:16px;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <!-- LEFT PAGE -->
+    <div class="page">
+        <div class="header">
+            <div>भारत सरकार<br>Government of India</div>
+            <div>आधार</div>
+        </div>
+
+        <div class="tricolor"></div>
+
+        <div class="uidai">
+            भारतीय विशिष्ट पहचान प्राधिकरण<br>
+            Unique Identification Authority of India
+        </div>
+
+        <div class="section addr">
+            To<br>
+            <strong>POLEPAKA PRATHIBHA BHARATHI</strong><br>
+            Sundar Nagar,<br>
+            Miryalaguda
+        </div>
+
+        <div class="qr">QR CODE</div>
+
+        <div class="aadhaar-no">
+            1234 5678 9012
+        </div>
+
+        <div class="footer">
+            मेरा आधार, मेरी पहचान
+        </div>
+
+        <!-- CUT CARD -->
+        <div class="card">
+            <div class="photo">PHOTO</div>
+
+            <div class="details">
+                <p><strong>Name:</strong><br>
+                POLEPAKA PRATHIBHA BHARATHI</p>
+
+                <p><strong>DOB:</strong> 05/10/2005</p>
+
+                <p><strong>Gender:</strong> FEMALE</p>
+
+                <p><strong>Aadhaar No:</strong><br>
+                1234 5678 9012</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT PAGE -->
+    <div class="page">
+        <div class="header">
+            <div>Government of India</div>
+            <div>AADHAAR</div>
+        </div>
+
+        <div class="tricolor"></div>
+
+        <div class="section info">
+            <strong>INFORMATION</strong>
+            <ul>
+                <li>Aadhaar is a proof of identity, not of citizenship.</li>
+                <li>Verify identity using Secure QR Code.</li>
+                <li>This is electronically generated.</li>
+                <li>Aadhaar is valid throughout India.</li>
+            </ul>
+        </div>
+
+        <div class="section addr">
+            <strong>Address:</strong><br>
+            POLEPAKA PRATHIBHA BHARATHI<br>
+            Sundar Nagar,<br>
+            Miryalaguda
+        </div>
+
+        <div class="qr">QR CODE</div>
+
+        <div class="aadhaar-no">
+            1234 5678 9012
+        </div>
+
+        <div class="footer">
+            UIDAI
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
