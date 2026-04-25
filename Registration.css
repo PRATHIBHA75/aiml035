@@ -1,0 +1,82 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    background-color: #ffffff;
+    border-collapse: collapse; /* Cleaner look than standard table borders */
+    border: none !important; /* Overriding the HTML border attribute */
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+td {
+    padding: 15px;
+    color: #555;
+    font-weight: 500;
+}
+
+/* Input Styling */
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+    background-color: #f9fff9;
+}
+
+/* Button Styling */
+input[type="submit"], 
+input[type="reset"] {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="reset"] {
+    background-color: #f44336;
+    color: white;
+    margin-left: 10px;
+}
+
+input[type="reset"]:hover {
+    background-color: #da190b;
+}
